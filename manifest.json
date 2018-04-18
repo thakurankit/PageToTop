@@ -10,7 +10,8 @@
     "persistent": false
   },
   "browser_action": {
-    "default_title": "Go to top of the page"
+    "default_title": "Go to top of the page",
+    "default_icon": "arrow_up.png"
   },
   "manifest_version": 2
 }
