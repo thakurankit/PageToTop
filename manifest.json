@@ -1,0 +1,16 @@
+{
+  "name": "PageToTop",
+  "description": "A simple chrome extension that scroll your current page to the top",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["logic.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Go to top of the page"
+  },
+  "manifest_version": 2
+}
